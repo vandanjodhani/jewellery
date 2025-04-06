@@ -1,0 +1,58 @@
+.client-outer {
+	display: block;
+	padding: 65px 0;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 125px;
+	background-color: #fff;
+}
+.client-outer .client-inner {
+	display: block;
+}
+.client-outer .client-inner .client-head {
+	text-align: center;
+	margin-bottom: 25px;
+}
+.client-outer .client-inner .client-head h2 {
+	font-size: 25px;
+}
+.client-outer .client-inner .client-head p {
+	margin: 12px 0 0;
+	font-size: 15px;
+	color: #555555;
+	line-height: 22px;
+	font-weight: 400;
+}
+.client-outer .client-inner .client-photo {
+	margin-bottom: 30px;
+}
+.client-outer .client-inner .client {
+	max-width: 900px;
+	margin: 0 auto;
+    text-align: center;
+}
+.client-outer .client-inner .client .client-photo img {
+	width: 100px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.client-outer .client-inner .client p {
+	margin: 0 0 35px 0;
+	font-size: 16px;
+	color: #555555;
+	line-height: 22px;
+	font-weight: 400;
+}
+.client-outer .client-inner .client .client-name {
+	font-size: 17px;
+    margin-right: 10px;
+}
+.client-outer .client-inner .client .client-position {
+	color: #999999;
+	font-weight: 400;
+	font-size: 14px;
+}
+.client-outer .client-inner .client .client-position::before{
+    content: "/";
+    padding-right: 10px;
+}

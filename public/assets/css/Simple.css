@@ -1,0 +1,57 @@
+.simple .price-range {
+	color: #c29958;
+}
+.simple .price-range::after {
+	content: "$80.00";
+    color: #bababa;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.simple .product-options .color-opt .quantity-input {
+	font-size: 14px;
+	font-weight: 400;
+	height: 48px;
+	line-height: 48px;
+	padding: 0;
+	width: 100px;
+	border-radius: 24px;
+	text-align: center;
+	color: #222222;
+	background: #fff;
+	border: 1px solid #efefef;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	outline: none;
+}
+.simple .grouped-product-inner .product-details .action-buttons {
+	position: absolute;
+	top: 35%;
+	right: 38%;
+}
+.simple #rc-tabs-0-panel-2 div {
+	font-size: 14px !important;
+	display: flex;
+}
+.simple #rc-tabs-0-panel-2 div span {
+	font-size: 12px !important;
+	border: 1px solid #efefef;
+	padding: 16px;
+	width: 13%;
+	margin: 0px !important;
+}
+.simple #rc-tabs-0-panel-2 div p {
+	border: 1px solid #efefef;
+	margin: 0px !important;
+	padding: 16px;
+	width: 87%;
+}
+.grouped-product-inner .product-details .diamond-ring-price {
+	font-size: 28px;
+	margin: 15px 0;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eee;
+	color: #555555 !important;
+}
+.grouped-product-inner .product-details .diamond-ring-price::after{
+	content: none !important;
+}

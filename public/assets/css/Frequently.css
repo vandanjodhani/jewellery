@@ -1,0 +1,81 @@
+.freq-title-outer {
+	margin-bottom: 70px;
+	background: #f4f4f4;
+	padding: 35px 0 45px;
+	text-align: center;
+}
+.freq-title-outer .freq-title-inner h2 {
+	font-size: 34px;
+}
+.freq-title-outer .freq-title-inner .freq-path span a {
+	color: #999999;
+	font-size: 14px;
+}
+.freq-title-outer .freq-title-inner .freq-path span a:hover {
+	color: #c29958;
+}
+.freq-title-outer .freq-title-inner .freq-path span:last-child a{
+	color: #c29958;
+}
+.freq-title-outer .freq-title-inner .freq-path span:nth-child(2) {
+	color: #999999;
+	display: inline-block;
+	margin: 0 15px;
+}
+.question-outer {
+	margin-bottom: 100px;
+}
+.question-outer .question-inner .qust-intro h4 {
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+.question-outer .question-inner .qust-intro p {
+	color: #555555;
+	font-weight: 400;
+	font-size: 14px;
+	word-spacing: 1px;
+	margin-bottom: 35px;
+}
+.questions .quest-inner .ant-collapse.ant-collapse-icon-position-start.css-dev-only-do-not-override-tjsggz {
+	border: none !important;
+}
+.questions .quest-inner .ant-collapse-item {
+	color: #222222;
+	transition: 0.3s ease;
+	border: 1px solid #efefef !important;
+	border-radius: 0px !important;
+	margin-bottom: 15px;
+	background: #f8f8f8;
+}
+.questions .quest-inner .ant-collapse-item:hover .ant-collapse-header-text{
+	color: #c29958;
+}
+.questions .quest-inner .ant-collapse-header {
+	padding: 7px 16px !important;
+	position: relative !important;
+	border-radius: 0px !important;
+}
+.questions .quest-inner .ant-collapse-expand-icon {
+	position: absolute;
+	right: 0;
+}
+.questions .quest-inner .ant-collapse-item.ant-collapse-item-active .ant-collapse-header{
+	background: #c29958;
+  	border-color: #c29958;
+    border-bottom-color: rgb(194, 153, 88);
+  	border-bottom-color: #c29958;
+	color: #222222;
+	font-weight: 600;
+}
+.questions .quest-inner .ant-collapse-item.ant-collapse-item-active:hover .ant-collapse-header-text{
+	color: #222222;
+}
+.questions .quest-inner .ant-collapse-content-box {
+	border-bottom: 1px solid #c29958;
+	border-left: 1px solid #c29958;
+	border-right: 1px solid #c29958;
+	padding: 20px 25px !important;
+}
+.questions .quest-inner .ant-collapse-content.ant-collapse-content-active {
+	border: none !important;
+}

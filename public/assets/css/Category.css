@@ -1,0 +1,239 @@
+.plate-outer {
+	margin-bottom: 70px;
+	background: #f4f4f4;
+	padding: 35px 0 45px;
+}
+.plate-outer .grouped-inner {
+	text-align: center;
+}
+.plate-outer .grouped-inner h2 {
+	font-size: 34px;
+}
+.plate-outer .grouped-inner .grouped-path a {
+	color: #999999;
+	font-size: 14px;
+}
+.plate-outer .grouped-inner .grouped-path a:hover {
+	color: #c29958;
+}
+.plate-outer .grouped-inner .grouped-path a:last-child {
+    color: #c29958;
+}
+.plate-outer .grouped-inner .grouped-path span {
+	color: #999999;
+	display: inline-block;
+	margin: 0 15px;
+}
+.category-inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+.category-inner .left-category {
+	display: block;
+	box-sizing: border-box;
+	padding: 0 10px;
+	width: 23%;
+}
+.category-inner .left-category .category-list-heading ,.product-tag-heading {
+	border-bottom: 1px solid #efefef;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	font-size: 18px;
+}
+.category-inner .left-category .category-dropdown li {
+	padding-right: 25px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.category-inner .left-category .category-dropdown li:hover a{
+	color: #c29958;
+}
+.category-inner .left-category .category-dropdown li:hover .ant-space-item{
+	color: #c29958;
+}
+.category-inner .left-category .category-dropdown li:hover .anticon.anticon-down path {
+	color: #c29958;
+}
+.category-inner .left-category .category-dropdown ul li a {
+	font-size: 14px;
+	display: block;
+}
+.category-inner .left-category .category-dropdown .ant-space-item {
+	font-size: 14px;
+}
+.category-inner .left-category .category-dropdown .ant-space-item .anticon.anticon-down {
+	position: absolute;
+	right: 2%;
+	top: 25%;
+	font-size: 12px;
+}
+.ant-dropdown-menu.ant-dropdown-menu-root.ant-dropdown-menu-vertical.ant-dropdown-menu-light.css-dev-only-do-not-override-tjsggz {
+	margin: 5px 0 20px;
+	padding-left: 15px;
+}
+.ant-dropdown-menu-item.ant-dropdown-menu-item-only-child {
+	padding-right: 15px !important;
+	margin-bottom: 10px !important;
+}
+.ant-dropdown-menu-item.ant-dropdown-menu-item-only-child:hover a{
+	color: #c29958 !important;
+}
+.ant-dropdown-menu-item.ant-dropdown-menu-item-only-child a {
+	color: #999999 !important;
+}
+.category-inner .left-category .compare {
+	border-top: 1px solid #efefef;
+	padding: 20px 0;
+	margin: 20px 0;
+	margin-top: 50px;
+}
+.category-inner .left-category .compare p {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.category-inner .left-category .compare .compare-btn {
+	margin: 10px 0px;
+	display: flex;
+}
+.category-inner .left-category .compare .compare-btn .comparesion-btn {
+	border: none;
+	font-size: 16px;
+	font-weight: 400;
+	height: 40px;
+	line-height: 36px;
+	outline: none;
+	padding: 0 35px;
+	border-radius: 20px;
+	transition: 0.3s ease;
+	background: #c29958;
+	color: #fff;
+	margin-left: 64px;
+}
+.category-inner .left-category .compare .compare-btn .clear-btn {
+	font-size: 14px;
+}
+.category-inner .left-category .compare .compare-btn .clear-btn:hover {
+	color:#c29958;
+}
+.category-inner .left-category .compare .compare-btn .comparesion-btn:hover{
+	color: #222222 !important;
+}
+.category-inner .left-category .product-tag .product-tags a {
+	display: inline-block;
+	border: 1px solid #efefef;
+	color: #222222;
+	font-size: 14px;
+	text-transform: capitalize;
+	margin: 0 10px 10px 0;
+	padding: 0px 20px;
+	height: 40px;
+	line-height: 35px;
+	transition: .2s ease;
+	border-radius: 20px;
+}
+.category-inner .left-category .product-tag .product-tags a:hover{
+	border-color: #c29958;
+  	color: #fff;
+	background: #c29958;
+}
+.category-inner .left-category .jwellery-coll-img {
+	padding: 50px 0;
+}
+.category-inner .left-category .jwellery-coll-img .jwellery-coll-img-inner{
+	overflow: hidden;
+}
+.category-inner .left-category .jwellery-coll-img .jwellery-coll-img-inner img{
+	transition: .3s ease-out 0s;
+}
+.category-inner .left-category .jwellery-coll-img:hover img{
+	transform: scale(1.02);
+}
+.category-inner .right-category {
+	display: block;
+	width: 77%;
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+.category-inner .right-category .flex.items-center.justify-between.mb-4 {
+	display: flex;
+	background: #f6f6f6;
+	border: none;
+	color: #999999;
+	border-radius: 5px;
+	margin: 0 0 30px 0;
+	padding: 13px 20px;
+	position: relative;
+	width: 100%;
+	font-size: 16px;
+}
+.category-inner .right-category .p-2.border.border-gray-300.bg-white {
+	border: none;
+	color: #999999;
+	display: block;
+	float: left;
+	font-size: 0;
+	height: 26px;
+	line-height: 26px;
+	overflow: hidden;
+	text-align: center;
+	width: 22px;
+	background: none;
+	background-position-x: 0%;
+	background-position-y: 0%;
+	margin-right: 20px;
+}
+.category-inner .right-category .alert-result {
+	line-height: 26px;
+	margin-bottom: 0;
+	margin-left: 30px;
+	padding-left: 30px;
+	border-left: 1px solid #999999;
+}
+.category-inner .right-category .alert-result p{
+	color: #999999;
+  	font-size: 1em;
+}
+.category-inner .right-category .sort {
+	margin: 0;
+	position: absolute;
+	right: 3%;
+}
+.category-inner .right-category .sort span {
+	margin-right: 10px;
+	line-height: 26px;
+	color: #999999;
+	font-size: 14px;
+}
+.category-inner .right-category .sort .ant-space.css-dev-only-do-not-override-tjsggz.ant-space-horizontal.ant-space-align-center.ant-space-gap-row-small.ant-space-gap-col-small {
+	background: #fff;
+	border: 1px solid #efefef;
+	box-shadow: none;
+	color: #555555;
+	height: 26px;
+	line-height: 24px;
+	min-width: 180px;
+	padding: 0 15px;
+	text-align: left;
+	border-radius: 13px;
+	font-size: 14px;
+}
+.category-inner .right-category .sort .ant-space.css-dev-only-do-not-override-tjsggz.ant-space-horizontal.ant-space-align-center.ant-space-gap-row-small.ant-space-gap-col-small svg {
+	position: absolute;
+	right: 4%;
+	top: 37%;
+	font-size: 10px;
+}
+.category-outer .product-main .product-inner .product-item {
+	display: block;
+	width: 34% !important;
+	padding: 0 15px;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+}
+.category-inner .right-category .flex .gap-2 rect {
+	color: #999999;
+}
+.category-inner .right-category .flex .gap-2 line {
+	color: #999999;
+}
