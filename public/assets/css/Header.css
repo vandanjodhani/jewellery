@@ -94,10 +94,12 @@ a{
 	font-size: 22px;
 	width: 30px;
 	height: 28px;
-	padding: 0;
 	display: block;
 	border: 1px solid #666;
 	padding: 0px 3px;
+}
+.header-main .header-inner .header-bot .menu-header a svg {
+	margin-bottom: 1px;
 }
 .header-main .header-inner .header-bot .header-1 {
 	width: 16%;

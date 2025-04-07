@@ -4,92 +4,140 @@ import { IoMenuOutline } from "react-icons/io5";
 import { IoIosSearch } from "react-icons/io";
 import { DownOutlined } from "@ant-design/icons";
 import { Menu, Dropdown, Space } from "antd";
+import $ from "jquery"; 
 
 const Header = () => {
-  const [isSideHeaderOpen, setIsSideHeaderOpen] = useState(false);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
-  const toggleSideHeader = () => {
-    setIsSideHeaderOpen(!isSideHeaderOpen);
-  };
 
   const items1 = [
     {
       label: (
-        <a href="https://www.antgroup.com" target="_blank" rel="noopener noreferrer">
-          Coronet
+        <a href="#">
+          Home shop 1
         </a>
       ),
       key: "1",
     },
     {
       label: (
-        <a href="https://www.aliyun.com" target="_blank" rel="noopener noreferrer">
-          Cufflink
+        <a href="#">
+          Home shop 2
         </a>
       ),
       key: "2",
     },
     {
       label: (
-        <a href="https://www.aliyun.com" target="_blank" rel="noopener noreferrer">
-          Grill
+        <a href="#">
+          Home shop 3
         </a>
       ),
       key: "3",
     },
     {
       label: (
-        <a href="https://www.aliyun.com" target="_blank" rel="noopener noreferrer">
-          Kilt pin
+        <a href="#">
+          Home shop 4
         </a>
       ),
       key: "4",
     },
+  ];
+  const items2 = [
     {
       label: (
-        <a href="https://www.aliyun.com" target="_blank" rel="noopener noreferrer">
-          Mable
+        <a href="#">
+          Shop Layouts
         </a>
       ),
-      key: "5",
+      key: "1",
     },
     {
       label: (
-        <a href="https://www.aliyun.com" target="_blank" rel="noopener noreferrer">
-          Mobo
+        <a href="#">
+          Shop Pages
         </a>
       ),
-      key: "6",
+      key: "2",
     },
     {
       label: (
-        <a href="https://www.aliyun.com" target="_blank" rel="noopener noreferrer">
-          Pippins
+        <a href="#">
+          Product Types
         </a>
       ),
-      key: "7",
+      key: "3",
+    }
+  ];
+  const items3 = [
+    {
+      label: (
+        <a href="#">
+          Blog Layouts
+        </a>
+      ),
+      key: "1",
     },
+    {
+      label: (
+        <a href="#">
+          Blog Pages
+        </a>
+      ),
+      key: "2",
+    },
+    {
+      label: (
+        <a href="#">
+          Post Formats
+        </a>
+      ),
+      key: "3",
+    }
+  ];
+  const items4 = [
+    {
+      label: (
+        <a href="#">
+          Frequently Questions
+        </a>
+      ),
+      key: "1",
+    },
+    {
+      label: (
+        <a href="#">
+          Privacy Policy
+        </a>
+      ),
+      key: "2",
+    },
+    {
+      label: (
+        <a href="#">
+          Error 404
+        </a>
+      ),
+      key: "3",
+    }
   ];
 
+  useEffect(()=>{
+    $(".menu-header").on("click", function () {
+      $(".side-header").show();
+    });
+    $(".close-btn button").on("click", function () {
+      $(".side-header").hide();
+    });
+  })
   return (
     <>
       {/* Side Header */}
-      <div className={`side-header ${isSideHeaderOpen ? 'open' : ''}`}>
+      <div className="side-header">
         <div className="side-header-inner">
           <div className="side-header-top">
-            <button className="close-btn" onClick={toggleSideHeader}>
-              ×
-            </button>
+            <div className="close-btn">
+              <button>Close</button>
+            </div>
           </div>
           <div className="side-header-content">
             <div className="header-sect-list">
@@ -102,37 +150,37 @@ const Header = () => {
                   <Dropdown menu={{ items: items1 }} trigger={["click"]}>
                     <a onClick={(e) => e.preventDefault()}>
                       <Space>
-                        Bag charm
+                        Home
                         <DownOutlined />
                       </Space>
                     </a>
                   </Dropdown>
                 </li>
                 <li>
-                  <Dropdown menu={{ items: items1 }} trigger={["click"]}>
+                  <Dropdown menu={{ items: items2 }} trigger={["click"]}>
                     <a onClick={(e) => e.preventDefault()}>
                       <Space>
-                        Bag charm
+                        Shop
                         <DownOutlined />
                       </Space>
                     </a>
                   </Dropdown>
                 </li>
                 <li>
-                  <Dropdown menu={{ items: items1 }} trigger={["click"]}>
+                  <Dropdown menu={{ items: items3 }} trigger={["click"]}>
                     <a onClick={(e) => e.preventDefault()}>
                       <Space>
-                        Bag charm
+                        Blog
                         <DownOutlined />
                       </Space>
                     </a>
                   </Dropdown>
                 </li>
                 <li>
-                  <Dropdown menu={{ items: items1 }} trigger={["click"]}>
+                  <Dropdown menu={{ items: items4 }} trigger={["click"]}>
                     <a onClick={(e) => e.preventDefault()}>
                       <Space>
-                        Bag charm
+                        Pages
                         <DownOutlined />
                       </Space>
                     </a>
@@ -200,9 +248,9 @@ const Header = () => {
           {/* header-bottom section start */}
           <div className="header-bot">
             <div className="menu-header">
-              <button id="btn" onClick={toggleSideHeader}>
+              <a id="btn">
                 <IoMenuOutline />
-              </button>
+              </a>
             </div>
             <div className="header-1">
               <div className="header-logo">
