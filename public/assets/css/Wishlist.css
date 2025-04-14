@@ -1,0 +1,27 @@
+.structure-outer {
+	margin-bottom: 70px;
+	display: block;
+}
+.structure-outer .structure-inner table {
+    width: 100%;
+}
+.structure-outer .structure-inner table tr:first-child td {
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 20px 10px;
+	width: 40px !important;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.structure-outer .structure-inner table tr:first-child td:first {
+	width: 40px !important;
+}
+.structure-outer .structure-inner table .product-sruct-info {
+	text-align: center;
+	width: 25% !important;
+}
+.structure-outer .structure-inner table tr td {
+	text-align: center;
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 20px 10px;
+}

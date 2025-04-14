@@ -300,7 +300,7 @@ const Header = () => {
                         <span>Shop Pages</span>
                         <Link to="/category">Category</Link>
                         <a href="#">My account</a>
-                        <a href="#">Wishlist</a>
+                        <Link to={"/wishlist"}>Wishlist</Link>
                         <a href="#">Cart</a>
                         <a href="#">Checkout</a>
                       </li>

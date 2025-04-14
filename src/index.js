@@ -10,7 +10,6 @@ import Grouped from './Products/Grouped';
 import Variable from './Products/Variable';
 import Simple from './Products/Simple';
 import External from './Products/External';
-import Category from './category/Category';
 import Arrivaldetail from './Products/arrivalproduct/Arrivaldetail';
 import Productdetail from './Products/ourproduct/Productdetail';
 import Ringproduct from './Products/ringproduct/Ringproduct';
@@ -18,6 +17,8 @@ import Ringproright from './Products/ringproduct/Ringproright';
 import Frequently from './pages/Frequently';
 import Error404 from './pages/Error404';
 import Privactpolicy from './pages/Privactpolicy';
+import Category from './shoppages/Category';
+import Wishlist from './shoppages/Wishlist';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -40,6 +41,7 @@ root.render(
                         <Route path="/frequently" element={< Frequently/>} />  
                         <Route path="/error404" element={< Error404/>} />  
                         <Route path="/privacypolicy" element={< Privactpolicy/>} />  
+                        <Route path="/wishlist" element={< Wishlist/>} />  
 
                   </Routes>
                   <Footer />
