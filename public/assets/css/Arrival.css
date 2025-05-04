@@ -1,7 +1,7 @@
 /* start arrival */
 .arrival-main {
 	display: block;
-	padding-top: 50px;
+	padding-top: 25px;
 	font-weight: 400 !important;
 	background-color: #fff;
 }
@@ -9,14 +9,14 @@
     display: block;
     text-align: center;
 }
-.arrival-main .arrival-bottom .arrival-top>h2{
-    font-family: 900;
-    font-size: 32px;
+.arrival-main .arrival-top h2 {
+	font-size: 30px;
+	font-weight: 700;
 }
-.arrival-main .arrival-top>p{
-    display: block;
-    padding: 15px;
-    color: #555555;
+.arrival-main .arrival-top > p {
+	display: block;
+	padding-bottom: 20px;
+	color: #555555;
 }
 .arrival-main .arrival-top .arrival-list{
     display: flex;

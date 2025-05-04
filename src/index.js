@@ -42,7 +42,6 @@ root.render(
                         <Route path="/error404" element={< Error404/>} />  
                         <Route path="/privacypolicy" element={< Privactpolicy/>} />  
                         <Route path="/wishlist" element={< Wishlist/>} />  
-
                   </Routes>
                   <Footer />
             </BrowserRouter>
