@@ -248,7 +248,7 @@ const Arrivaldetail = () => {
                                     </div>
                                 </div>
 
-                                <div className="product-meta">
+                                <div className="product-meta">gi
                                     <div className="categories">
                                         Categories: <a href="#">{product.category1}</a>, <a href="#">{product.category2}</a>
                                     </div>
