@@ -1,0 +1,154 @@
+/* start product section */
+.product-main {
+	background-color: #fff;
+}
+.product-main .product-inner .product-top {
+    display: block;
+    text-align: center;
+    background-color: #fff;
+}
+
+.product-main .product-inner .product-top>p {
+    display: block;
+    padding: 15px;
+    color: #555555;
+}
+
+.product-main .product-inner .product-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.product-main .product-inner .product-list>li>a {
+    display: block;
+    padding: 0 2px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+}
+
+.product-main .product-inner .product-bot-inner {
+	display: flex;
+	box-sizing: border-box;
+	margin: 20px -15px;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.product-main .product-inner .product-item {
+	display: block;
+	width: 25%;
+	padding: 0 15px;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+}
+.product-main .product-inner .product-item:hover .arrival-btn>.button {
+    display: block;
+}
+
+.product-main .product-inner .product-item:hover .arrival-opt-but {
+    display: block !important;
+}
+
+.product-main .product-inner .product-item .arrival-opt-but {
+    position: absolute;
+    display: none;
+    width: 40px;
+    top: 20px;
+    transition: 0.3s ease;
+    right: 20px;
+}
+
+.product-main .product-inner .product-item .arrival-opt-but li {
+    margin: 0 0 10px 0;
+    background: #fff;
+    border: none;
+    color: #222222;
+    display: block;
+    border-radius: 100%;
+    padding: 7px 0;
+    box-shadow: 0px 2px 1.9px 0.1px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+}
+
+.product-main .product-inner .product-item .arrival-opt-but li:hover {
+    background: #c29958;
+}
+
+.product-main .product-inner .product-item .arrival-opt-but li svg {
+    font-size: 22px;
+    font-weight: 400;
+    transition: 0.3s ease;
+}
+
+.product-main .product-inner .product-item .arrival-opt-but li:hover svg path {
+    transition: 0.3s ease;
+}
+
+.product-main .product-inner .product-item .arrival-opt-but li:hover svg path {
+    color: #fff !important;
+}
+
+.product-main .product-inner .product-item .product-item-content {
+    color: #555555;
+}
+
+.product-main .product-inner .product-item .product-item-content>p {
+    display: block;
+    padding: 10px;
+    color: #222222;
+}
+.product-main .product-inner .product-item .product-item-content > span {
+	padding: 0 15px;
+	color: #555555;
+}
+.product-main .product-inner .product-bot-inner .product-item:nth-child(4) .product-item-content>span {
+    color: #c29958;
+}
+.product-main .product-inner .product-bot-inner .product-item:nth-child(4) .product-item-content>span::before{
+    content: "$85.00";
+    text-decoration: line-through;
+    color: #bababa;
+    margin-right: 10px;
+}
+.product-main .product-inner .product-bot-inner .product-item:nth-child(4) .product-item-content del {
+	color: #bababa;
+}
+.product-main .product-inner .bot-sec .product-item:nth-child(2) .product-item-content > span {
+	color: #c29958;
+}
+.product-main .product-inner .bot-sec .product-item:nth-child(2) .product-item-content > span::before {
+	content: "$80.00";
+    text-decoration: line-through;
+    color: #bababa;
+    margin-right: 10px;
+}
+.product-main .product-inner .bot-sec .product-item:nth-child(2) .product-item-content  del {
+	color: #bababa;
+}
+.product-main .product-inner .product-item .product-item-content>.product-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding-top: 10px;
+}
+
+.product-main .product-inner .product-item .product-item-content > .product-list > li > a {
+	margin-right: 1px;
+}
+
+.product-main .product-inner .product-top>h2 {
+    font-family: 900;
+    font-size: 32px;
+}
+
+.product-main .product-inner .bot-sec {
+    display: flex;
+    margin-top: 50px;
+    box-sizing: border-box;
+    margin: 0 -15px;
+    width: 100%;
+}
+
+/* end product section */

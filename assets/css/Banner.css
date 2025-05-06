@@ -1,0 +1,123 @@
+/* Banner section start */
+.banner-main {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 0;
+}
+
+.banner-main .banner-main img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-main .banner-inner {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	padding: 10px 20px;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.banner-main .banner-inner>.inner-content>h2 {
+    font-size: 42px;
+	font-weight: 500;
+    color: #000;
+    margin: 0;
+	text-align: left;
+}
+
+.banner-main .banner-inner .inner-content{
+	width: 65%;
+}
+.banner-main .banner-inner .content{
+	width: 100%;
+}
+.banner-main .banner-inner .content > p {
+	text-align: left;
+	padding: 15px 0;
+	padding-top: 5px;
+	text-transform: capitalize;
+	line-height: 18px;
+	font-weight: 400;
+	font-size: 14px;
+	border-color: rgb(85, 85, 85);
+	border-style: none;
+	margin: 0px;
+	border-radius: 0px;
+	color: rgb(85, 85, 85);
+	white-space: nowrap;
+	width: auto;
+}
+.banner-main .banner-inner .btn {
+	display: block;
+	margin-top: 25px;
+}
+.banner-main .banner-inner .btn .button{
+	display: block;
+	width: 25%;
+	padding: 10px;
+	background-color: #c29958;
+	color: #ffffff;
+	border-radius: 25px; 
+	border: none;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.banner-main .banner-inner .btn .button:hover{
+	background-color: #000;
+	color: #ffffff;
+}
+.swiper-button-prev {
+	background: #000 !important;
+	width: 40px !important;
+	height: 40px !important;
+	margin-left: 30px;
+	transition: all 0.3s ease;
+	opacity: 0 !important;
+}
+.swiper-button-next {
+	background: #000 !important;
+	width: 40px !important;
+	height: 40px !important;
+	margin-right: 30px !important;
+	opacity: 0 !important;
+	transition: all 0.3s ease;
+}
+.banner-outer:hover .swiper-button-prev{
+	opacity: 1 !important;
+}
+.banner-outer:hover .swiper-button-next{
+	opacity: 1 !important;
+}
+.swiper-button-prev::after, .swiper-rtl .swiper-button-next::after {
+	content: 'prev';
+	font-size: 16px !important;
+	color: #fff !important;
+	font-weight: 900 !important;
+}
+.swiper-button-next::after, .swiper-rtl .swiper-button-next::after {
+	content: 'prev';
+	font-size: 16px !important;
+	color: #fff !important;
+	font-weight: 900 !important;
+}
+.banner-outer .swiper-slide:nth-of-type(2) .banner-main .banner-inner {
+	position: absolute !important;
+	left: 75%;
+	transform: translate(-50%, -60%);
+	padding: 10px 20px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	width: 42%;
+	top: 50%;
+	overflow: hidden;
+}
+.banner-outer .swiper-slide:nth-of-type(2) .banner-main .banner-inner .inner-content {
+	width: 100%;
+}
+
+/* Banner section end */

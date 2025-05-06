@@ -1,0 +1,155 @@
+/* start arrival */
+.arrival-main {
+	display: block;
+	padding-top: 50px;
+	font-weight: 400 !important;
+	background-color: #fff;
+}
+.arrival-main .arrival-top{
+    display: block;
+    text-align: center;
+}
+.arrival-main .arrival-bottom .arrival-top>h2{
+    font-family: 900;
+    font-size: 32px;
+}
+.arrival-main .arrival-top>p{
+    display: block;
+    padding: 15px;
+    color: #555555;
+}
+.arrival-main .arrival-top .arrival-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.arrival-main .arrival-top .arrival-list>li>a{
+    display: block;
+    padding: 0 15px;
+    color: #999999;
+    transition: 0.3s;
+}
+.arrival-main .arrival-top .arrival-list>li>a:hover{
+    color: #222222;
+}
+.arrival-main .arrival-top .arrival-list .list-first{
+    color: #222222 !important;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner{
+    display: flex;
+    margin-top: 20px;
+    box-sizing: border-box;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item {
+	display: block;
+	width: 25%;
+	padding: 0 15px;
+	transition: 0.3s ease;
+	text-align: center;
+	position: relative;
+	transition: 0.5s ease;
+	box-sizing: border-box;
+}
+.arrival-item:hover .arrival-btn>.button{
+    display: block;
+}
+.arrival-item .arrival-btn{
+    display: flex;
+    justify-content: center;
+    transition: 0.5s ease;
+}
+.arrival-btn > .button {
+	position: absolute;
+	margin: 0 auto;
+	bottom: 30%;
+	display: none;
+	width: 45%;
+	padding: 10px;
+	background-color: #ffffff;
+	color: #222222;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	transition: 0.5s;
+	left: 28%;
+}
+.arrival-btn>.button:hover{
+    background-color: #c29958;
+	color: #fff;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item:hover .arrival-opt-but{
+    display: block;
+    transition: 0.3s ease;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item .arrival-opt-but {
+	position: absolute;
+	display: none;
+	width: 40px;
+	top: 20px;
+	transition: 0.3s ease;
+	right: 35px;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item .arrival-opt-but li {
+	margin: 0 0 10px 0;
+	background: #fff;
+	border: none;
+	color: #222222;
+	display: block;
+	border-radius: 100%;
+	padding: 7px 0;
+    box-shadow: 0px 2px 1.9px 0.1px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item .arrival-opt-but li:hover{
+    background: #c29958;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item .arrival-opt-but li svg {
+	font-size: 22px;
+	font-weight: 400;
+    transition: 0.3s ease;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item .arrival-opt-but li:hover svg path{
+    transition: 0.3s ease;
+    color: #fff !important;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item-content del {
+	color: #bababa;
+	margin-right: 10px;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item-content>p{
+    display: block;
+    padding: 10px;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item:nth-child(4) .arrival-item-content>span{
+    color: #c29958;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item:nth-child(4) .arrival-item-content>span::before{
+    content: "$80.00";
+	text-decoration: line-through;
+	padding-right: 10px;
+	color: #bababa;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item-content>p a{
+    color: #222222;
+    transition: 0.3s ease;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item-content>p:hover a{
+    color: #c29958;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item-content > .arrival-list {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	padding-top: 15px;
+	padding-left: 25%;
+}
+.arrival-main .arrival-bottom .arrival-bot-inner .arrival-item-content > .arrival-list > li > a {
+	padding: 0;
+	color: #999999;
+	display: block;
+}
+/* end arrival */

@@ -1,0 +1,157 @@
+.ring-outer {
+	display: block;
+	background-color: #fff;
+}
+.ring-outer .ring-inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+.ring-outer .ring-inner .ring-banner {
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+.ring-outer .ring-inner .ring-banner .ring-banner-inner {
+	position: relative;
+    overflow: hidden;
+}
+.ring-outer .ring-inner .ring-banner .ring-banner-inner .ring-banner-detail {
+	position: absolute;
+	top: 50%;
+	left: 45px;
+	text-align: center;
+	transform: translateY(-50%);
+}
+.ring-outer .ring-inner .ring-banner .ring-banner-inner .ring-banner-detail p {
+	color: #888888;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 0 0 15px 0;
+	line-height: 1;
+}
+.ring-outer .ring-inner .ring-banner .ring-banner-inner .ring-banner-detail h3 {
+	font-size: 30px;
+}
+.ring-outer .ring-inner .ring-banner .ring-banner-inner .ring-banner-detail button {
+	border: none;
+	background: transparent;
+	margin-top: 35px;
+}
+.ring-outer .ring-inner .ring-banner .ring-banner-inner .ring-banner-detail button:hover a{
+    color: #c29958;
+}
+.ring-outer .ring-inner .ring-banner .ring-banner-inner .ring-banner-detail a {
+	display: inline-block;
+	color: #222222;
+	position: relative;
+	padding-bottom: 4px;
+	font-size: 16px;
+	font-weight: 500;
+	border-bottom: 2px solid;
+    transition: 0.3s ease;
+}
+.ring-outer .ring-inner .ring-banner .ring-banner-inner:hover img{
+    transform: scale(1.02);
+    transition: .3s ease-out 0s;
+}
+.ring-outer .ring-inner .ring-banner .ring-banner-inner img{
+    transition: .3s ease-out 0s;
+}
+
+
+.ring-outer .ring-inner .ring-product {
+	width: 50%;
+	box-sizing: border-box;
+}
+.ring-outer .ring-inner .ring-product .rings-type {
+	display: flex;
+	flex-wrap: wrap;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner {
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner .ring-header {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner .ring {
+	display: flex;
+	flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner .ring .ring-img {
+	width: 31%;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner .ring .ring-detail {
+	padding: 0px 0px 0px 10px;
+	width: 67%;
+	display: block;
+	box-sizing: border-box;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner .ring .ring-detail a {
+	color: #222222;
+	display: block;
+	max-width: 100%;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin-bottom: 10px;
+    transition: 0.3s ease;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner .ring .ring-detail span {
+	color: #555555;
+	font-size: 15px;
+	font-weight: 400;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner:last-child .swiper-slide:first-child .ring:nth-child(4) .ring-detail span{
+    color: #c29958;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner:last-child .swiper-slide:last-child .ring:nth-child(4) .ring-detail span{
+    color: #c29958;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner:last-child .ring:nth-child(4) .ring-detail span::before{
+	content: "$68.00";
+	color: #bababa;
+	margin-right: 10px;
+	text-decoration: line-through;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner .ring .ring-detail del {
+	color: #bababa;
+	font-weight: 400;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner .ring .ring-detail a:hover{
+    color: #c29958;
+}
+.ring-outer .ring-inner .ring-product .rings-type .ring-type-inner:first-child .ring:nth-child(5) .ring-detail span{
+	content: "$80.00";
+}
+.ring-type-inner:first-child .ring-slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) .ring:first-child .ring-detail .ring-price span {
+	color: #c29958 !important;
+}
+.ring-type-inner:first-child .ring-slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) .ring:first-child .ring-detail .ring-price span::before {
+	content: "$80.00";
+	color: #bababa;
+	text-decoration: line-through;
+	margin-right: 7px;
+}
+.ring-type-inner:first-child .ring-slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) .ring:nth-child(3) .ring-detail .ring-price span::before {
+	content: "$80.00";
+	color: #bababa;
+	text-decoration: line-through;
+	margin-right: 7px;
+}
+.ring-type-inner:last-child .ring-slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) .ring:last-child .ring-detail .ring-price span::before {
+	content: "$80.00";
+	color: #bababa;
+	text-decoration: line-through;
+	margin-right: 7px;
+}
+.ring-type-inner:first-child .ring-slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) .ring:nth-child(3) .ring-detail .ring-price span {
+	color: #c29958 !important;
+}

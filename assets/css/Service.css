@@ -1,0 +1,45 @@
+/* Service section start */
+.service-outer {
+	display: block;
+	padding: 15px 0;
+	padding-top: 45px;
+	background-color: #fff;
+}
+.service-inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+.service {
+	width: 25%;
+	display: block;
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+.inner-service {
+	display: flex;
+    margin-bottom: 35px;
+}
+.service-logo svg {
+	font-size: 32px;
+}
+.service-logo svg path {
+	color: #c29958;
+}
+.service-info {
+	padding-left: 15px;
+}
+.service-info h4 {
+	line-height: 1;
+	margin: 0 0 10px 0;
+	font-weight: 400;
+    color: #222222;
+}
+h6 {
+	font-size: 14px;
+	margin: 0;
+	font-weight: 400;
+	color: #555555;
+    word-spacing: 1px;
+    text-transform: capitalize;
+}
+/* Service section end */

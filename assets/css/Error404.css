@@ -1,0 +1,65 @@
+.error-outer .error-inner {
+	padding: 120px 0 180px 0;
+	text-align: center;
+}
+.error-outer .error-inner h2 {
+	color: #242424;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.error-outer .error-inner p {
+	color: #242424;
+	font-size: 22px;
+	font-weight: 300;
+	margin: 20px auto 40px;
+	text-align: center;
+	width: 56%;
+	line-height: 24px;
+}
+.error-outer .error-inner .error-inp {
+	background: #fff;
+	border: 1px solid #efefef;
+	color: #555555;
+	max-width: 500px;
+	position: relative;
+	width: 100%;
+	border-radius: 3px;
+	box-sizing: border-box;
+    margin: 0 auto;
+}
+.error-outer .error-inner .error-inp input {
+	outline: none;
+	padding: 0 50px 0 15px;
+	width: 100%;
+	background: none;
+	border: none !important;
+	height: 50px;
+	font-size: 16px;
+}
+.error-outer .error-inner .error-inp svg {
+	position: absolute;
+	right: 3%;
+	font-size: 24px;
+	top: 26%;
+    cursor: pointer;
+}
+.error-outer .error-inner .error-inp svg path {
+	color: #999999;
+}
+.error-outer .error-inner .error-inp svg:hover path{
+    color: #c29958;
+}
+.error-outer .error-inner .error-btn a {
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 8px 35px;
+	text-align: center;
+	border-radius: 20px;
+	transition: 0.3s ease;
+	margin-top: 30px;
+	background: #c29958;
+	color: #fff;
+}

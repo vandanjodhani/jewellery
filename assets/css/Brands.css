@@ -1,0 +1,32 @@
+.brans-outer {
+	display: block;
+	padding-bottom: 50px;
+	background-color: #fff;
+	padding-top: 35px;
+}
+.brans-outer .brans-inner {
+	display: block;
+	padding: 40px 30px;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	width: 100%;
+}
+.brans-outer .brans-inner .brand-name-outer {
+	opacity: 0.5;
+	transition: 0.3s ease !important;
+	width: 100%;
+}
+.brans-outer .brans-inner .brand-name-outer img {
+	width: 100% !important;
+}
+.brans-outer .brans-inner .swiper-wrapper {
+	justify-content: center !important;
+	overflow: hidden !important;
+}
+.brans-outer .brans-inner .brand-name-outer:hover{
+    opacity: 1 !important;
+    transform: scale(1.1);
+}
+.brans-inner .swiper-backface-hidden .swiper-slide {
+	width: 20% !important;
+}
